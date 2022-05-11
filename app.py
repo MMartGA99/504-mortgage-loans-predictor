@@ -33,7 +33,7 @@ features = ['Credit_History',
 approved=pd.read_csv('model_components/approved_loans.csv')
 denied=pd.read_csv('model_components/denied_loans.csv')
 # random forest model
-filename = open('model_components/loan_approval_rf_model.pkl', 'rb')
+filename = open('model_components/loan_approval_lr_model.pkl', 'rb')
 rf = pickle.load(filename)
 filename.close()
 # encoder1
